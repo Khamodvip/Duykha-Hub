@@ -1,0 +1,627 @@
+local AkaliNotif = loadstring(game:HttpGet("https://pastebin.com/raw/TgXJSKHh"))();
+local Notify = AkaliNotif.Notify;
+
+wait(1);
+
+Notify({
+Description = "Look The Information First";
+Title = "LOADING...";
+Duration = 3;
+});
+
+wait(2);
+
+Notify({
+Description = "Script Mod By Duy Kha Authentic";
+Title = "INFORMATION";
+Duration = 4;
+});
+
+wait(3);
+
+Notify({
+Description = "Trải Nghiệm Script. Cảm Ơn Chúc Các Bạn Có Một Trải Nghiệm Tốt";
+Title = "DONE...";
+Duration = 3;
+});
+
+wait(2);
+local Window = library:CreateWindow("Duy Kha-HUB", "3.0", 10044538000)
+
+local Tab = Window:CreateTab("MENU")
+local Page = Tab:CreateFrame("Credits")
+
+TextBox = Page:CreateBox("Script Mod By Duy Kha Authentic", 10044538000, function(arg)
+TextBox:UpdateBox("New Title")
+print(arg)
+end)
+
+TextBox = Page:CreateBox("[----------[ ///////////////////////////// ]---------]", 10044538000, function(arg)
+TextBox:UpdateBox("New Title")
+print(arg)
+end)
+
+TextBox = Page:CreateBox("Script Work For All Game", 10044538000, function(arg)
+TextBox:UpdateBox("New Title")
+print(arg)
+end)
+
+local Page = Tab:CreateFrame("Combat")
+
+TextBox = Page:CreateBox("[----------[ ///////////////////////////// ]---------]", 10044538000, function(arg)
+TextBox:UpdateBox("New Title")
+print(arg)
+end)
+
+Button = Page:CreateButton("Hit Box (SMALL)", "NONE", function()
+    _G.HeadSize = 20 _G.Disabled = true game:GetService('RunService').RenderStepped:connect(function() if _G.Disabled then for i,v in next, game:GetService('Players'):GetPlayers() do if v.Name ~= game:GetService('Players').LocalPlayer.Name then pcall(function() v.Character.HumanoidRootPart.Size = Vector3.new(_G.HeadSize,_G.HeadSize,_G.HeadSize) v.Character.HumanoidRootPart.Transparency = 0.9 v.Character.HumanoidRootPart.BrickColor = BrickColor.new("Really white") v.Character.HumanoidRootPart.Material = "Neon" v.Character.HumanoidRootPart.CanCollide = false end) end end end end)
+end)
+
+Button = Page:CreateButton("Hit Box (MEDIUM)", "NONE", function()
+    _G.HeadSize = 30 _G.Disabled = true game:GetService('RunService').RenderStepped:connect(function() if _G.Disabled then for i,v in next, game:GetService('Players'):GetPlayers() do if v.Name ~= game:GetService('Players').LocalPlayer.Name then pcall(function() v.Character.HumanoidRootPart.Size = Vector3.new(_G.HeadSize,_G.HeadSize,_G.HeadSize) v.Character.HumanoidRootPart.Transparency = 0.9 v.Character.HumanoidRootPart.BrickColor = BrickColor.new("Really white") v.Character.HumanoidRootPart.Material = "Neon" v.Character.HumanoidRootPart.CanCollide = false end) end end end end)
+end)
+
+Button = Page:CreateButton("Hit Box (LARGE)", "NONE", function()
+    _G.HeadSize = 40 _G.Disabled = true game:GetService('RunService').RenderStepped:connect(function() if _G.Disabled then for i,v in next, game:GetService('Players'):GetPlayers() do if v.Name ~= game:GetService('Players').LocalPlayer.Name then pcall(function() v.Character.HumanoidRootPart.Size = Vector3.new(_G.HeadSize,_G.HeadSize,_G.HeadSize) v.Character.HumanoidRootPart.Transparency = 0.9 v.Character.HumanoidRootPart.BrickColor = BrickColor.new("Really white") v.Character.HumanoidRootPart.Material = "Neon" v.Character.HumanoidRootPart.CanCollide = false end) end end end end)
+end)
+
+TextBox = Page:CreateBox("[----------[ ///////////////////////////// ]---------]", 10044538000, function(arg)
+TextBox:UpdateBox("New Title")
+print(arg)
+end)
+
+Button = Page:CreateButton("Aimbot Range (300)", "NONE", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/PZhxvsme"))()
+end)
+
+Button = Page:CreateButton("Aimbot Range (400)", "NONE", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/JAjX0fVr"))()
+end)
+
+Button = Page:CreateButton("Aimbot Range (500)", "NONE", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/ZdbUNK66"))()
+end)
+
+TextBox = Page:CreateBox("[----------[ ///////////////////////////// ]---------]", 10044538000, function(arg)
+TextBox:UpdateBox("New Title")
+print(arg)
+end)
+
+Button = Page:CreateButton("Esp Player ( BOX )", "NONE", function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/zKjj0TQD"))()
+end)
+
+Button = Page:CreateButton("Esp Player ( BODY )", "NONE", function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/cCCX66GY"))()
+end)
+
+TextBox = Page:CreateBox("[----------[ ///////////////////////////// ]---------]", 10044538000, function(arg)
+TextBox:UpdateBox("New Title")
+print(arg)
+end)
+
+Button = Page:CreateButton("Kill Aura", "NONE", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/ibYN5TrH"))()
+end)
+
+Button = Page:CreateButton("Teleport Player", "NONE", function()
+    loadstring(game:HttpGet("https://gist.githubusercontent.com/DagerFild/b4776075a0d26ef04394133ee6bd2081/raw/0ed51ac94057d2d9a9f00e1b037b9011c76ca54a/tpGUI", true))()
+end)
+
+TextBox = Page:CreateBox("[----------[ ///////////////////////////// ]---------]", 10044538000, function(arg)
+TextBox:UpdateBox("New Title")
+print(arg)
+end)
+
+Button = Page:CreateButton("Anti KnockBack", "NONE", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/TrcZKAkh"))()
+end)
+
+local Page = Tab:CreateFrame("Player")
+
+TextBox = Page:CreateBox("[----------[ ///////////////////////////// ]---------]", 10044538000, function(arg)
+TextBox:UpdateBox("New Title")
+print(arg)
+end)
+
+Button = Page:CreateButton("Speed Menu", "NONE", function()
+
+    
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local TextButton_2 = Instance.new("TextButton")
+local WalkSpeedControl = Instance.new("TextLabel")
+local Close = Instance.new("TextButton")
+local Label = Instance.new("TextLabel")
+local Open = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+Frame.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame.BorderSizePixel = 3
+Frame.Position = UDim2.new(0.382299274, 0, 0.270377755, 0)
+Frame.Size = UDim2.new(0, 257, 0, 231)
+Frame.Active = true
+Frame.Draggable = true
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+TextButton.BorderSizePixel = 3
+TextButton.Position = UDim2.new(0.71206224, 0, 0.63203454, 0)
+TextButton.Size = UDim2.new(0, 74, 0, 73)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "+"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.33073929, 0, 0.29437235, 0)
+TextLabel.Size = UDim2.new(0, 87, 0, 70)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "80"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+TextButton_2.BorderSizePixel = 3
+TextButton_2.Position = UDim2.new(0, 0, 0.63203454, 0)
+TextButton_2.Size = UDim2.new(0, 74, 0, 73)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "-"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+WalkSpeedControl.Name = "WalkSpeed Control"
+WalkSpeedControl.Parent = Frame
+WalkSpeedControl.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+WalkSpeedControl.BorderSizePixel = 3
+WalkSpeedControl.Position = UDim2.new(0.000976324081, 0, -0.00234955549, 0)
+WalkSpeedControl.Size = UDim2.new(0, 257, 0, 59)
+WalkSpeedControl.Font = Enum.Font.Highway
+WalkSpeedControl.Text = "Walkspeed Control"
+WalkSpeedControl.TextColor3 = Color3.fromRGB(0, 0, 0)
+WalkSpeedControl.TextScaled = true
+WalkSpeedControl.TextSize = 14.000
+WalkSpeedControl.TextWrapped = true
+
+Close.Name = "Close"
+Close.Parent = Frame
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.Position = UDim2.new(1, 0, -0.0259740278, 0)
+Close.Size = UDim2.new(0, 63, 0, 69)
+Close.Style = Enum.ButtonStyle.RobloxButtonDefault
+Close.Font = Enum.Font.SourceSans
+Close.Text = "CLOSE"
+Close.TextColor3 = Color3.fromRGB(255, 0, 0)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+
+Label.Name = "Label"
+Label.Parent = Frame
+Label.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+Label.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Label.BorderSizePixel = 3
+Label.Position = UDim2.new(0, 0, 0.99999994, 0)
+Label.Size = UDim2.new(0, 257, 0, 50)
+Label.Font = Enum.Font.Highway
+Label.Text = "Made by Rip_Sonic"
+Label.TextColor3 = Color3.fromRGB(0, 0, 0)
+Label.TextScaled = true
+Label.TextSize = 14.000
+Label.TextWrapped = true
+
+Open.Name = "Open"
+Open.Parent = ScreenGui
+Open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Open.Position = UDim2.new(-0.00074955821, 0, 0.520874739, 0)
+Open.Size = UDim2.new(0, 150, 0, 35)
+Open.Style = Enum.ButtonStyle.RobloxButton
+Open.Font = Enum.Font.SourceSans
+Open.Text = "Speed Menu"
+Open.TextColor3 = Color3.fromRGB(255, 255, 255)
+Open.TextScaled = true
+Open.TextSize = 10.000
+Open.TextWrapped = true
+
+
+local function QDTZQ_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local label = script.Parent.Parent.TextLabel --- defines the number
+	
+	
+	script.Parent.MouseButton1Click:Connect(function() --- when the button is clicked it calls this function
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = game.Players.LocalPlayer.Character.Humanoid.WalkSpeed +5--- defines the player and addition to walk speed
+		label.Text = game.Players.LocalPlayer.Character.Humanoid.WalkSpeed --- tells the text label that displays walk speed to update
+	end)
+end
+coroutine.wrap(QDTZQ_fake_script)()
+local function UCADA_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	local label = script.Parent.Parent.TextLabel --- defines the number
+	
+	
+	script.Parent.MouseButton1Click:Connect(function() --- when the button is clicked it calls this function
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = game.Players.LocalPlayer.Character.Humanoid.WalkSpeed -5--- defines the player and addition to walk speed
+		label.Text = game.Players.LocalPlayer.Character.Humanoid.WalkSpeed --- tells the text label that displays walk speed to update
+	end)
+end
+coroutine.wrap(UCADA_fake_script)()
+local function YDSA_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.Parent.Visible = false
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible =  false
+		script.Parent.Parent.Parent.Open.Visible = true
+	end)
+end
+coroutine.wrap(YDSA_fake_script)()
+local function ZFFOR_fake_script() -- Open.LocalScript 
+	local script = Instance.new('LocalScript', Open)
+
+	script.Parent.Visible = true
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Visible = false
+		script.Parent.Parent.Frame.Visible = true
+	end)
+end
+coroutine.wrap(ZFFOR_fake_script)()
+
+end)
+
+
+Button = Page:CreateButton("Fly Menu", "NONE", function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/WrrG9tkf"))()
+end)
+
+TextBox = Page:CreateBox("[----------[ ///////////////////////////// ]---------]", 10044538000, function(arg)
+TextBox:UpdateBox("New Title")
+print(arg)
+end)
+
+Button = Page:CreateButton("Set Spawn + Tp", "NONE", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/1dM3mAJq'))()
+end)
+
+TextBox = Page:CreateBox("[----------[ ///////////////////////////// ]---------]", 10044538000, function(arg)
+TextBox:UpdateBox("New Title")
+print(arg)
+end)
+
+Button = Page:CreateButton("Auto Click", "NONE", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/VxjDiyVr"))()
+end)
+
+
+local Page = Tab:CreateFrame("World")
+
+TextBox = Page:CreateBox("[----------[ ///////////////////////////// ]---------]", 10044538000, function(arg)
+TextBox:UpdateBox("New Title")
+print(arg)
+end)
+
+Button = Page:CreateButton("Btools ( NORMAL )", "NONE", function()
+    Instance.new("HopperBin", game.Players.LocalPlayer.Backpack).BinType = 4
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 20
+end)
+
+Button = Page:CreateButton("Btools ( F3X )", "NONE", function()
+    loadstring(game:GetObjects("rbxassetid://6695644299")[1].Source)()
+end)
+
+TextBox = Page:CreateBox("[----------[ ///////////////////////////// ]---------]", 10044538000, function(arg)
+TextBox:UpdateBox("New Title")
+print(arg)
+end)
+
+Button = Page:CreateButton("Pc Keyboard", "NONE", function()
+   loadstring(game:HttpGet(('https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/mob.txt'),true))()
+end)
+
+TextBox = Page:CreateBox("[----------[ ///////////////////////////// ]---------]", 10044538000, function(arg)
+TextBox:UpdateBox("New Title")
+print(arg)
+end)
+
+Button = Page:CreateButton("Infinity Yield", "NONE", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+local Page = Tab:CreateFrame("Misc")
+
+TextBox = Page:CreateBox("[----------[ ///////////////////////////// ]---------]", 10044538000, function(arg)
+TextBox:UpdateBox("New Title")
+print(arg)
+end)
+
+Button = Page:CreateButton("Server Hop", "NONE", function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/iySVbDQ2"))()
+end)
+
+Button = Page:CreateButton("Re-join", "NONE", function()
+   game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
+end)
+
+TextBox = Page:CreateBox("[----------[ ///////////////////////////// ]---------]", 10044538000, function(arg)
+TextBox:UpdateBox("New Title")
+print(arg)
+end)
+
+Button = Page:CreateButton("Anti Afk", "NONE", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringypVvhJBq4QNz", true))()
+end)
+
+TextBox = Page:CreateBox("[----------[ ///////////////////////////// ]---------]", 10044538000, function(arg)
+TextBox:UpdateBox("New Title")
+print(arg)
+end)
+
+Button = Page:CreateButton("Shift lock", "NONE", function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/BYc9GHqg", true))()
+end)
+
+TextBox = Page:CreateBox("[----------[ ///////////////////////////// ]---------]", 10044538000, function(arg)
+TextBox:UpdateBox("New Title")
+print(arg)
+end)
+
+Button = Page:CreateButton("Low Graphick", "NONE", function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/RM3vpzEg"))()
+end)
+
+Button = Page:CreateButton("Graphick RTX", "NONE", function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/beJhkj3m"))()
+end)
+
+TextBox = Page:CreateBox("[----------[ ///////////////////////////// ]---------]", 10044538000, function(arg)
+TextBox:UpdateBox("New Title")
+print(arg)
+end)
+
+Button = Page:CreateButton("Anti Void", "NONE", function()
+   local baseplate    = Instance.new("Part")
+	baseplate.Parent   = workspace
+	baseplate.Name = "BasePlatform"
+	baseplate.Transparency = 0.5
+	baseplate.Size     = Vector3.new(800000,20,800000) -- change size
+	baseplate.Anchored = true
+	baseplate.Position = Workspace.Lobby["Middle Room"].Floor.Base.Union.Position + Vector3.new(0,-110,0)
+end)
+
+TextBox = Page:CreateBox("[----------[ ///////////////////////////// ]---------]", 10044538000, function(arg)
+TextBox:UpdateBox("New Title")
+print(arg)
+end)
+
+Button = Page:CreateButton("Translate all Language", "NONE", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/b6Y3GTQG"))()
+end)
+
+local Page = Tab:CreateFrame("Other Script")
+
+TextBox = Page:CreateBox("[↓↓] FRUIT BETTLEGROUND [↓↓]", 10044538000, function(arg)
+TextBox:UpdateBox("New Title")
+print(arg)
+end)
+
+Button = Page:CreateButton("Spawn Safe Platform", "NONE", function()
+    local baseplate    = Instance.new("Part")
+	baseplate.Parent   = workspace
+	baseplate.Name = "BasePlatform"
+	baseplate.Transparency = 1
+	baseplate.Size     = Vector3.new(5,1,5) -- change size
+	baseplate.Anchored = true
+	baseplate.Position = Workspace.Lobby["Middle Room"].Floor.Base.Union.Position + Vector3.new(0,110,0)
+end)
+
+Button = Page:CreateButton("Auto farm Fruit ( SPAWN PLAT FRIST )", "NONE", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/uhZag4tH"))()
+end)
+
+TextBox = Page:CreateBox("[↓↓] TITANS BETTLEGROUND [↓↓]", 10044538000, function(arg)
+TextBox:UpdateBox("New Title")
+print(arg)
+end)
+
+Button = Page:CreateButton("No Cooldown ( FLUXUS )", "NONE", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/HzanLBNs"))()
+end)
+
+Button = Page:CreateButton("No Cooldown ( HYDROGEN )", "NONE", function()
+    loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\75\117\69\114\120\115\90\110\10"))()
+end)
+
+TextBox = Page:CreateBox("[↓↓] ABILITY WARS [↓↓]", 10044538000, function(arg)
+TextBox:UpdateBox("New Title")
+print(arg)
+end)
+
+Button = Page:CreateButton("Ability Wars Gui", "NONE", function()
+    loadstring(game:HttpGet("https://paste.ee/r/Wo5Kj"))()
+end)
+
+Button = Page:CreateButton("TP TO = SECRET MUSHROOM ROOM", "NONE", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-13017.5654296875, 83.53207397460938, -5022.58349609375)
+end)
+
+TextBox = Page:CreateBox("[↓↓] SURVIVE THE KILLER [↓↓]", 10044538000, function(arg)
+TextBox:UpdateBox("New Title")
+print(arg)
+end)
+
+Button = Page:CreateButton("Eltoro Gui", "NONE", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FOXTROXHACKS/ElToro/main/Hub.lua"))()
+end)
+
+TextBox = Page:CreateBox("[↓↓] LEGEND OF SPEED [↓↓]", 10044538000, function(arg)
+TextBox:UpdateBox("New Title")
+print(arg)
+end)
+
+Button = Page:CreateButton("Farm Gui", "NONE", function()
+    notif:Notification("INFORMATION","Script Made By Sonic","GothamSemibold","Gotham",2) -- title: <string> description: <string> title font: <string> description font: <string> notification show time: <number>
+local notif = loadstring(game:HttpGet("https://pastebin.com/raw/yUJfa0Hx"))()
+wait(0.1)
+local library = loadstring(game:HttpGet("https://pastebin.com/raw/egMXJcwB", true))()
+library.options.underlinecolor = "rainbow"
+
+local w = library:CreateWindow('List')
+w:Section('Script Made By Sonic')
+local t = w:Toggle('Auto Rebirth', {flag = "Rebirth"})
+spawn( 
+    function()
+        while wait() do
+            if w.flags.Rebirth then
+                game:GetService("ReplicatedStorage").rEvents.rebirthEvent:FireServer("rebirthRequest")
+            end
+        end
+    end
+)
+
+local t = w:Toggle('Farm 1', {flag = "Farm1"})
+spawn( 
+    function()
+        while wait() do
+            if w.flags.Farm1 then
+                for i,v in pairs(game:GetService("Workspace").Hoops:GetChildren()) do
+				firetouchinterest(v, game:GetService('Players').LocalPlayer.Character.HumanoidRootPart, 0)
+				wait()
+				firetouchinterest(v, game:GetService('Players').LocalPlayer.Character.HumanoidRootPart, 1)
+				end
+            end
+        end
+    end
+)
+
+local t = w:Toggle('Farm 2', {flag = "Farm2"})
+spawn( 
+    function()
+        while wait() do
+            if w.flags.Farm2 then
+                local children = workspace.Hoops:GetChildren()
+                    for i, child in ipairs(children) do
+                        if child.Name == "Hoop" then
+                        child.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+                    end    
+                end
+            end
+        end
+    end
+)
+end)
+
+local Page = Tab:CreateFrame("King Legacy")
+
+TextBox = Page:CreateBox("[----------[ ///////////////////////////// ]---------]", 10044538000, function(arg)
+TextBox:UpdateBox("New Title")
+print(arg)
+end)
+
+Button = Page:CreateButton("Gui King Legacy", "NONE", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+end)
+
+TextBox = Page:CreateBox("[----------[ ///////////////////////////// ]---------]", 10044538000, function(arg)
+TextBox:UpdateBox("New Title")
+print(arg)
+end)
+
+Button = Page:CreateButton("BY-PASS TP > floresco 1", "NONE", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3641.9384765625, 57.334808349609375, 170.16880798339844)
+end)
+
+Button = Page:CreateButton("BY-PASS TP > floresco 2", "NONE", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4755.2958984375, 57.337833404541016, 109.77266693115234)
+end)
+
+Button = Page:CreateButton("BY-PASS TP > viridans", "NONE", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5126.93701171875, 57.3348388671875, 1858.7130126953125)
+end)
+
+Button = Page:CreateButton("BY-PASS TP > torrefacio", "NONE", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5206.8486328125, 57.284793853759766, 800.2947387695312)
+end)
+
+Button = Page:CreateButton("BY-PASS TP > soldier headquater", "NONE", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9617.6064453125, 39.19536209106445, 807.9238891601562)
+end)
+
+Button = Page:CreateButton("BY-PASS TP > pirate skull island", "NONE", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9208.6953125, 68.27733612060547, -5145.04736328125)
+end)
+
+Button = Page:CreateButton("BY-PASS TP > ice island", "NONE", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-205.19203186035156, 86.98753356933594, -2567.59814453125)
+end)
+
+Button = Page:CreateButton("BY-PASS TP > magma island", "NONE", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-10.982187271118164, 112.0208740234375, -3360.09130859375)
+end)
+
+Button = Page:CreateButton("BY-PASS TP > dead thundra", "NONE", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1070.6502685546875, 14.385601043701172, 921.5740356445312)
+end)
+
+Button = Page:CreateButton("BY-PASS TP > loaf island", "NONE", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-789.46630859375, 39.44408416748047, 7444.76904296875)
+end)
+
+Button = Page:CreateButton("BY-PASS TP > skull island", "NONE", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6519.35888671875, 57.752288818359375, 5880.3720703125)
+end)
+
+local Page = Tab:CreateFrame("Blox Fruit")
+
+TextBox = Page:CreateBox("[----------[ ///////////////////////////// ]---------]", 10044538000, function(arg)
+TextBox:UpdateBox("New Title")
+print(arg)
+end)
+
+Button = Page:CreateButton("NevaHub Gui", "NONE", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
+end)
+
+Button = Page:CreateButton("HohoHub Gui", "NONE", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+
+TextBox = Page:CreateBox("[----------[ ///////////////////////////// ]---------]", 10044538000, function(arg)
+TextBox:UpdateBox("New Title")
+print(arg)
+end)
+
+Button = Page:CreateButton("Tp Fruit Spawn + Hop", "NONE", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/RHCj6rmd'))()
+end)
+
+TextBox = Page:CreateBox("[----------[ ///////////////////////////// ]---------]", 10044538000, function(arg)
+TextBox:UpdateBox("New Title")
+print(arg)
+end)
+
+Button = Page:CreateButton("Super Fast Attack", "NONE", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/YCFGUmFH"))()
+end)
+
+Button = Page:CreateButton("Super Fast Attack + auto click", "NONE", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/0WyG0Sf0"))()
+end)
