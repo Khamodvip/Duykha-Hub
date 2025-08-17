@@ -1,4 +1,4 @@
-local AkaliNotif = loadstring(game:HttpGet("https://pastebin.com/raw/TgXJSKHh"))();
+local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Khamodvip/Duykha-Hub/refs/heads/main/All-Game-Script"))();
 local Notify = AkaliNotif.Notify;
 
 wait(1);
